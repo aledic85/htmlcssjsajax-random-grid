@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper {
+  width: 45%;
+  height: 55%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 70px;
+  width: 70px;
+  background: red;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  cursor: pointer;
+}
